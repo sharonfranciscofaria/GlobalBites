@@ -8,45 +8,22 @@
                 {% csrf_token %}
 
                 <div class="pt-5">
-                    <h2>Appetizers</h2>
-                    {% for appetizer in appetizers %}
+                    <h2>Main Bites</h2>
+                    {% for mainbite in mainbites %}
                     <div class="row">
                         <div class="col-md-2 col-sm-12">
-                            <img class="rounded" src="{{ appetizer.image.url}}" width="150" height="100">
+                            <img class="rounded" src="{{ mainbite.image.url}}" width="150" height="100">
                         </div>
                         <div class="col-md-8 col-sm-12">
                             <div class="d-flex flex-row">
                                 <div class="form-group form-check">
                                     <input type="checkbox" name="items[]" class="form-check-input"
-                                        value="{{ appetizer.pk }}">
-                                    <label class="form-check-label">{{ appetizer.name }}</label>
+                                        value="{{ mainbite.pk }}">
+                                    <label class="form-check-label">{{ mainbite.name }}</label>
                                 </div>
-                                <p class="font-weight-bold pl-5">&nbsp; £{{ appetizer.price }}</p>
+                                <p class="font-weight-bold pl-5">&nbsp; £{{ mainbite.price }}</p>
                             </div>
-                            <p>{{ appetizer.description}}</p>
-                        </div>
-                    </div>
-                    <hr />
-                    {% endfor %}
-                </div>
-
-                <div class="pt-5">
-                    <h2>Entres</h2>
-                    {% for entre in entres %}
-                    <div class="row">
-                        <div class="col-md-2 col-sm-12">
-                            <img class="rounded" src="{{ entre.image.url}}" width="150" height="100">
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                            <div class="d-flex flex-row">
-                                <div class="form-group form-check">
-                                    <input type="checkbox" name="items[]" class="form-check-input"
-                                        value="{{ entre.pk }}">
-                                    <label class="form-check-label">{{ entre.name }}</label>
-                                </div>
-                                <p class="font-weight-bold pl-5">&nbsp; £{{ entre.price }}</p>
-                            </div>
-                            <p>{{ entre.description}}</p>
+                            <p>{{ mainbite.description}}</p>
                         </div>
                     </div>
                     <hr />

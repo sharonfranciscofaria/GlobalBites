@@ -19,16 +19,14 @@ class About(View):
 class Order(View):
     def get(self, request, *arg, **kwargs):
         # get all items from each category
-        appetizers = MenuItem.objects.filter(
-            category__name__contains='Appetizer')
-        entres = MenuItem.objects.filter(category__name__contains='Entre')
+        mainbites = MenuItem.objects.filter(
+            category__name__contains='Main_Bites')
         desserts = MenuItem.objects.filter(category__name__contains='Dessert')
         drinks = MenuItem.objects.filter(category__name__contains='Drink')
 
         # pass into context
         context = {
-            'appetizers': appetizers,
-            'entres': entres,
+            'mainbites': mainbites,
             'desserts': desserts,
             'drinks': drinks,
         }
@@ -52,7 +50,7 @@ class Order(View):
         items = request.POST.getlist('items[]')
 
         for item in items:
-            menu_item = MenuItem.objects.get(pk__contains=int(item))
+            menu_item = MenuItem.objects.get(pk__exact=int(item))
             item_data = {
                 'id': menu_item.pk,
                 'name': menu_item.name,
