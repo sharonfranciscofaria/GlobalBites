@@ -1,7 +1,8 @@
 
-#front-page {
-    background: url('hero-image.jpg') no-repeat;
-    background-size: cover;
+/* Background Image */
+#hero-image {
+    background: url('hero-image.png');
     width: 100%;
-    height: 90vh;
+    
 }
+

@@ -1,18 +1,142 @@
+
 {% extends 'customer/base.html' %}
+{% load static %}
 {% block  content %}
-    <div class="container-fluid" id="front-page">
-        
-        <div class="row justify-content-center">
-            <div class="col-md-2 col-sm-12 p-4 my-5 text-center bg-white">
-                <h2>This Season <br> Middle East Mezze</h2>
-            </div>
+
+<!-- Hero 1 - Bootstrap Brain Component -->
+<section class="px-5 py-8 py-xxl-20 background-position-center background-size-cover" id="hero-image" >
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
+          <h1 class="display-4 fw-bold mb-3">World Tour <br> Food Adventure</h1>
+          <p class="lead mb-5">Are you ready for a culinary adventure? We're thrilled to announce our latest menu rotation, featuring the exotic and diverse flavors of the Middle East. After three months of serving up the best of Japanese cuisine, we're excited to bring you a new selection of small plates inspired by the vibrant and traditional dishes of the Middle East.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="{% url 'order' %}" class="btn btn-light btn-lg px-4 gap-3" id="order-button">Explore & Order</a>
+          </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="card col-md-2 col-sm-12 p-4 text-center bg-white">
-                <h2>Place an Order!</h2>
-                    <a href="{% url 'order' %}" class="btn btn-primary">Order Now!</a>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+  </section>
+
+  <section style="color: #000; background-color: #fffaeb;">
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-10 col-xl-8 text-center">
+          <h3 class="fw-bold mb-4">Testimonials</h3>
+        </div>
+      </div>
+  
+      <!-- MDB Three columns testimonials -->
+      <div class="row text-center">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="card">
+            <div class="card-body py-4 mt-2">
+              <div class="d-flex justify-content-center mb-4">
+                <img src='{% static "customer/developer.png"%}'
+                  class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <h5 class="font-weight-bold">Haley Jones</h5>
+              <h6 class="font-weight-bold my-3">Software Developer</h6>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+              </ul>
+            
+              <p class="mb-2">
+                <i class="fas fa-quote-left pe-2"></i>As a software developer, I spend most of my days in front of a computer screen, which can get pretty monotonous. However, Global Bites has been a game-changer for me!
+                
+                I truly believe that food has the power to bring people together. Whether I'm sharing a meal with friends or enjoying a solo dinner, Global Bites never disappoints. As a software developer, I value innovation and creativity, and that's exactly what Global Bites brings to the table.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="card">
+            <div class="card-body py-4 mt-2">
+              <div class="d-flex justify-content-center mb-4">
+                <img src='{% static "customer/staff.png"%}'
+                  class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <h5 class="font-weight-bold">Studio Manager</h5>
+              <h6 class="font-weight-bold my-3">Photography London</h6>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+              </ul>
+              <p class="mb-2">
+                <i class="fas fa-quote-left pe-2"></i>As a studio manager, it's important for me to foster a positive work culture, and Global Bites has been a great way to do that! Sharing a meal with my staff members has become one of our favorite team-building activities.
+                
+                I truly believe that it has brought my team closer together. As a studio manager, I highly recommend Global Bites as a unique and enjoyable culinary experience for any team looking to bond over delicious food.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-0">
+          <div class="card">
+            <div class="card-body py-4 mt-2">
+              <div class="d-flex justify-content-center mb-4">
+                <img src='{% static "customer/family.png"%}'
+                  class="rounded-circle shadow-1-strong" width="100" height="100" />
+              </div>
+              <h5 class="font-weight-bold">The Gellars</h5>
+              <h6 class="font-weight-bold my-3">Family</h6>
+              <ul class="list-unstyled d-flex justify-content-center">
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+                <li>
+                  <i class="fas fa-star fa-sm text-info"></i>
+                </li>
+              </ul>
+              <p class="mb-2">
+                <i class="fas fa-quote-left pe-2"></i>My family and I absolutely love Global Bites! We've enjoyed learning about different cultures and cuisines through Global Bites' rotating menu. It's always exciting to see what new countries and flavors will be featured next. The quality of the food is top-notch, and we appreciate their commitment to showcasing diverse and authentic dishes. I highly recommend it to any family looking for a fun and educational culinary experience.
+
+
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 {% endblock content %}
