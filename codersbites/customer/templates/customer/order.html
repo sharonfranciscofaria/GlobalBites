@@ -7,12 +7,22 @@
             <form method="POST">
                 {% csrf_token %}
 
+                <section>
+                    <div class='container'>
+                      <div class='row justify-content-center mt-5'>
+                          <div class='col-md-6 col-sm-12 text-center'>
+                              <h1>
+                                Middle Eastern Bites
+                              </h1>
+                          </div>
+                      </div>
+                    </section>
+
                 <div class="pt-5">
-                    <h2>Main Bites</h2>
                     {% for mainbite in mainbites %}
                     <div class="row">
                         <div class="col-md-2 col-sm-12">
-                            <img class="rounded" src="{{ mainbite.image.url}}" width="150" height="100">
+                            <img class="rounded" src="{{ mainbite.image.url}}" width="150" height="150">
                         </div>
                         <div class="col-md-8 col-sm-12">
                             <div class="d-flex flex-row">
@@ -35,7 +45,7 @@
                     {% for dessert in desserts %}
                     <div class="row">
                         <div class="col-md-2 col-sm-12">
-                            <img class="rounded" src="{{ dessert.image.url}}" width="150" height="100">
+                            <img class="rounded" src="{{ dessert.image.url}}" width="150" height="150">
                         </div>
                         <div class="col-md-8 col-sm-12">
                             <div class="d-flex flex-row">
@@ -58,7 +68,7 @@
                     {% for drink in drinks %}
                     <div class="row">
                         <div class="col-md-2 col-sm-12">
-                            <img class="rounded" src="{{ drink.image.url}}" width="150" height="100">
+                            <img class="rounded" src="{{ drink.image.url}}" width="150" height="150">
                         </div>
                         <div class="col-md-8 col-sm-12">
                             <div class="d-flex flex-row">
@@ -88,7 +98,7 @@
 
                 <div class="form-group pt-3">
                     <label for="name">Address</label>
-                    <input required class="form-control" type="text" placeholder="00 Main Street" name="street" />
+                    <input required class="form-control" type="text" placeholder="12 Main Street" name="street" />
                 </div>
 
                 <div class="row">
@@ -109,7 +119,7 @@
 
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-dark mt-3" data-mdb-toggle="modal" data-mdb-target="#submitModal">
-                    Submit Order!
+                    Submit
                 </button>
 
                 <!-- Modal -->
@@ -118,13 +128,13 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="submitModalLabel">Submit Your Order!</h5>
+                                <h5 class="modal-title" id="submitModalLabel">Please Submit</h5>
                                 <button type="button" class="btn-close" data-mdb-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-light" data-mdb-dismiss="modal">Go Back</button>
-                                <button type="submit" class="btn btn-dark">Place Order!</button>
+                                <button type="button" class="btn btn-light" data-mdb-dismiss="modal">Back</button>
+                                <button type="submit" class="btn btn-dark">Order Now</button>
                             </div>
                         </div>
                     </div>
