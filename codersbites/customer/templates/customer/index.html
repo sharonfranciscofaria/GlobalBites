@@ -18,16 +18,71 @@
       </div>
     </div>
   </section>
+  <!-- Service 5 - Bootstrap Brain Component -->
+<section class="bg-black py-5 py-xl-8">
+  <div class="container">
+    <div class="row gy-5 gy-lg-0 gx-lg-8 align-items-center">
+      <div class="col-12 col-lg-5">
+        <h3 class="fs-6 text-white mb-2 mb-xl-3">THIS SEASON: THE MIDDLE EAST</h3>
+        <h2 class="display-5 text-white mb-3 mb-xl-4">A unique culinary experience through the art of small plates.</h2>
+        <p class="mb-4 mb-xl-5 text-white">Global Bites is excited to showcase the flavors of the Middle East this season. With an emphasis on fragrant spices, fresh herbs, and bold flavors, our Middle Eastern small plates are sure to transport you to the heart of the region.
 
-  <section style="color: #000; background-color: #fffaeb;">
+          From the tangy and savory flavors of our hummus to baba ghanoush, our menu offers a wide range of dishes that represent the diversity and richness of the Middle Eastern cuisine. Our chefs have expertly crafted each dish with care and attention to detail, ensuring that each bite is bursting with authentic flavor.</p>
+        <a href="{% url 'menu' %}" class="btn btn-light btn-lg px-4 gap-3">Menu</a>
+      </div>
+      <div class="col-12 col-lg-7">
+        <div class="row gy-4">
+          <div class="col-12 col-sm-6">
+            <div class="card border-0 border-bottom border-dark shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <h4 class="mb-4">Rotating menu</h4>
+                <p class="mb-4 text-dark">With a rotating menu that changes every three months, Global Bites keeps things fresh and exciting. You can expect to try four different cuisines each year.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+
+                <h4 class="mb-4">Diversity</h4>
+                <p class="mb-4 text-secondary">Global Bites is passionate about showcasing the diverse cuisines and cultures of different countries, believing that food is a great way to connect people.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <h4 class="mb-4">Sustainable</h4>
+                <p class="mb-4 text-secondary">We are committed to sustainability through the use of fresh, locally sourced, and seasonal ingredients to reducing our carbon footprint.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="card border-0 border-bottom border-primary shadow-sm">
+              <div class="card-body text-center p-4 p-xxl-5">
+                <h4 class="mb-4">Online ordering</h4>
+                <p class="mb-4 text-secondary">Whether you're planning a gathering with friends, business meetings or an event, Global Bites' online ordering system is the perfect solution for you.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<img src='{% static "customer/mezze.jpg"%}' class="w-100 shadow-1-strong rounded" alt="plates">
+
+  <!-- MDB Three columns testimonials -->
+  <section style="color: #000; background-color: #000000;">
     <div class="container py-5">
       <div class="row d-flex justify-content-center">
         <div class="col-md-10 col-xl-8 text-center">
-          <h3 class="fw-bold mb-4">Testimonials</h3>
+          <h3 class="fw-bold mb-4 text-white">Testimonials</h3>
         </div>
       </div>
   
-      <!-- MDB Three columns testimonials -->
+    
       <div class="row text-center">
         <div class="col-md-4 mb-4 mb-md-0">
           <div class="card">
@@ -59,7 +114,7 @@
               <p class="mb-2">
                 <i class="fas fa-quote-left pe-2"></i>As a software developer, I spend most of my days in front of a computer screen, which can get pretty monotonous. However, Global Bites has been a game-changer for me!
                 
-                I truly believe that food has the power to bring people together. Whether I'm sharing a meal with friends or enjoying a solo dinner, Global Bites never disappoints. As a software developer, I value innovation and creativity, and that's exactly what Global Bites brings to the table.
+                I truly believe that food has the power to bring people together. Whether I'm sharing a meal with friends or enjoying a solo dinner, Global Bites never disappoints.
               </p>
             </div>
           </div>
@@ -91,9 +146,9 @@
                 </li>
               </ul>
               <p class="mb-2">
-                <i class="fas fa-quote-left pe-2"></i>As a studio manager, it's important for me to foster a positive work culture, and Global Bites has been a great way to do that! Sharing a meal with my staff members has become one of our favorite team-building activities.
+                <i class="fas fa-quote-left pe-2"></i>As a studio manager, it's important for me to foster a positive work culture. Sharing a meal with my staff members has become one of our favorite team-building activities.
                 
-                I truly believe that it has brought my team closer together. As a studio manager, I highly recommend Global Bites as a unique and enjoyable culinary experience for any team looking to bond over delicious food.
+                I truly believe that it has brought my team closer together. A unique and enjoyable culinary experience for any team looking to bond over delicious food.
               </p>
             </div>
           </div>
@@ -125,7 +180,7 @@
                 </li>
               </ul>
               <p class="mb-2">
-                <i class="fas fa-quote-left pe-2"></i>My family and I absolutely love Global Bites! We've enjoyed learning about different cultures and cuisines through Global Bites' rotating menu. It's always exciting to see what new countries and flavors will be featured next. The quality of the food is top-notch, and we appreciate their commitment to showcasing diverse and authentic dishes. I highly recommend it to any family looking for a fun and educational culinary experience.
+                <i class="fas fa-quote-left pe-2"></i>My family and I absolutely love Global Bites! We've enjoyed learning about different cultures and cuisines through Global Bites' rotating menu. It's always exciting to see what new countries and flavors will be featured next. I highly recommend it to any family looking for a fun and educational culinary experience.
 
 
 
@@ -137,6 +192,7 @@
       </div>
     </div>
   </section>
+  <img src= '{% static "customer/tapas.jpg"%}' class="w-100 shadow-1-strong rounded" alt="tapas">
 
 
 {% endblock content %}
