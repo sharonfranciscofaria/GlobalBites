@@ -245,9 +245,70 @@ To maintain consistency and professionalism, I also used 'Josefin Sans' for subh
 ----
 
 ## Desktop, Tablet & Mobile Responsiveness 
-My website is designed to be responsive and accessible on any device, mainly thanks Bootstrap. I have tested them across all devices (Iphone, Ipads, Samsung tablets, Ipad mini, Desktop) using google dev tools.
 
-![Responsive](assets/images/responsive.svg)
+![Responsive](codersbites/media/testings/responsive.png)
+
+I used a framework called Bootstrap 4 to create the website. Bootstrap comes with pre-made buttons and forms that are easy to use and saves time. Bootstrap also makes the website fit on different screen sizes, making it easy to use on any device.
+
+To make the website look good without starting from scratch, I used pre-made free components from Bootstrap, MDB, and Bootstrap Brain. Then, I customised these components to fit the branding of the business using CSS.
+Using pre-made components helped me save time and made the website look consistent and professional throughout. 
+
+
+
+
+
+
+
+***
+## Technologies used
+
+- HTML
+    - HTML is used to structure and use Bootstrap components by adding specific classes.
+- CSS
+    - CSS is used to style and personalise Bootstrap components used for the website
+- Python / Django 
+    - Django was used Python to build the backend 
+- [Bootstrap v4](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+    - A set of pre-designed HTML, CSS, and JavaScript components was used to create responsive, mobile-first websites.
+- Google Fonts
+    - Google Fonts us used to embed for the website
+- [Figma](https://www.figma.com)
+    - The wireframe was pre-planned and designed via Figma. 
+- [Canva](https://www.canva.com/)
+    - Canva was used for: 
+      - Granting copyright free images/graphics/videos
+      - Designing and testing visuals 
+      - Resizing and downloading in PNG to support transparent background
+     
+- Bootstrap Brain, MDB Bootstrap, Bootstrap Form Builder
+    - These websites allows copyright free frontend libraries, some of the bootstrap components were used for the website
+- [QuillBot](https://quillbot.com/)
+    - QuillBot was used to scan writings and alert any errors in grammar, spelling, punctuation as well as rephrase any research used for the website.
+- [User Persona](https://userpersona.dev/)
+    - The website helped to generate fictional characters to represent the website
+- GitHub 
+    - Stores, manages, and track changes to the project code
+- Chrome DevTools
+    - Chrome DevTools helped to debug, inspect, test the website's responsive design and check performance analysis tools
+- [Form Builder](https://bootstrapformbuilder.com/)
+    - Form builder was used to build the form needed alongside with the bootstrap used 
+
+***
+
+# Credits
+- Code institute Course Materials
+- W3 School 
+- YouTube: Legion Script 
+- YouTube: Mosh 
+- Django Documents 
+*** 
+
+# Acknowledgements
+- My tutor at Westminster Adult Education Service, Richey Malhotra. A big thanks.
+- My classmates and team at Westminster Adult Education Service who have been kind to help one another when in need, share ideas and jokes around when working together!
+- My partner Juan Carlos Diaz Lara, whom I am thankful for introducing me into this coding world and taking the journey with me. 
+
+
 
 
 
