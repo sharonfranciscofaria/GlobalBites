@@ -263,6 +263,61 @@ Using pre-made components helped me save time and made the website look consiste
 ### Ipad/Tablet
 ![Responsive-mobile](codersbites/media/testings/ipad.PNG)
 
+***
+
+## Features
+
+Header with logo and navigation links (Home, About, Menu, Order) 
+![nav](codersbites/media/testings/navbar.PNG)
+
+
+Footer with links to social media pages and login in
+![footer](codersbites/media/testings/footer.PNG)
+
+
+Button to direct to order page
+![button1](codersbites/media/testings/button-order.PNG)
+
+
+Button to direct to menu page
+![button2](codersbites/media/testings/button-menu.PNG)
+
+
+Sign in page 
+![signin](codersbites/media/testings/signin.PNG)
+
+
+Sign up page 
+![signup](codersbites/media/testings/signup.PNG)
+
+
+Password Reset page
+![passwordreset](codersbites/media/testings/password-reset.PNG)
+
+
+Order details to be entered by customers, if they don’t, it will not proceed next. 
+![order-details](codersbites/media/testings/order-details.PNG)
+
+
+Confirm order
+![confirm](codersbites/media/testings/confirm.PNG)
+
+
+Order ID
+![orderid](codersbites/media/testings/orderid.PNG)
+
+
+Order submitted
+![ordersubmitted](codersbites/media/testings/ordersubmitted.PNG)
+
+
+Admin dashboard
+![dashboard](codersbites/media/testings/dashboard.PNG)
+
+
+
+
+
 
 
 ## Database Control Flow
