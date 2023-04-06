@@ -218,9 +218,28 @@ The development of the Global Bites website was planned using agile methodology 
 
 ![Logo](codersbites/media/testings/brand.png)
 
+![Hikers](codersbites/media/testings/hike-font.PNG)
+
+I chose a handwriting font (Hitch Hike / Antio) for my logo as it gave my brand a unique and personalised touch that stands out from other food businesses. The handwriting font also reflects my brand's personality, which focuses on diverse small plates from around the world, conveying the message that my food is authentic, delicious, and distinct. Using Canva to edit the logo was easy and cost-effective.. Overall, I'm happy with the final result and believe that it helps create a professional brand image.
+
+![antio](codersbites/media/testings/antio-font.PNG)
+
+I decided to go with "Small plates world tour" as I believe it’s a great slogan for a restaurant that serves small plates from around the world. It's catchy, memorable, and suggests that customers can try a variety of international dishes without leaving their seats. The use of the word "world" makes the slogan more inclusive and indicates that the restaurant offers diverse menu options. 
+
 ## Colour Palette: Canva
 
+I decided to go for a black and white colour theme for my website because my food pictures are already colourful. It looks clean and sophisticated, making it easy for people to use.
+
+In the future, I might add themed colours that go with my menu for that month. This could make my website look even more exciting and add a sense of anticipation for my customers. Overall, using a black and white colour theme for my website was a good idea, and adding themed colours could make it even better.
+
+
 ## Typography: Google Font / Bootstrap 
+![Josefin](codersbites/media/testings/josefin.PNG)
+![Poppins](codersbites/media/testings/poppins.PNG)
+
+For Global Bites, I carefully selected fonts that would help communicate the right message to my targeted customers. I chose 'Josefin Sans' for headings because it has a clean, modern, and elegant appearance that aligns well with the restaurant's concept. 'Poppins' was my choice for paragraphs because it's easy to read and complements 'Josefin Sans' nicely.
+
+To maintain consistency and professionalism, I also used 'Josefin Sans' for subheadings. While I opted for these specific fonts in most cases, I also used some fonts provided by Bootstrap for certain elements of my website.
 
 
 ----
