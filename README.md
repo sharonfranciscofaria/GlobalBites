@@ -298,6 +298,8 @@ Password Reset page
 Order details to be entered by customers, if they don’t, it will not proceed next. 
 ![order-details](codersbites/media/testings/order-details.PNG)
 
+Alert if details not entered
+![alert](codersbites/media/testings/attention.PNG)
 
 Confirm order
 ![confirm](codersbites/media/testings/confirm.PNG)
@@ -310,15 +312,25 @@ Order ID
 Order submitted
 ![ordersubmitted](codersbites/media/testings/ordersubmitted.PNG)
 
+Payment
+![paymentdone](codersbites/media/testings/payment.PNG)
+
 
 Admin dashboard
 ![dashboard](codersbites/media/testings/dashboard.PNG)
 
+## Future Features 
 
+1. Customer Reviews: Enable customers to provide feedback and rate dishes directly on the website.
+2. Contact Information: Display the company's contact information, including phone number, email, and physical address.
+3. Nutrition Information: Provide nutrition information and calorie counts for each dish.
+4. Allergy Awareness: Highlight ingredients that may cause allergic reactions and provide alternative options for customers with food allergies.
+5. Dietary Classification: Clearly label dishes as vegan, vegetarian, or non-vegetarian to help customers make informed choices.
+6. Custom Orders: Allow customers to customise their orders by requesting dishes that are not listed on the current menu.
+7. Top-rated Dishes: Display the best-rated dishes on the website to help customers decide what to order.
+8. Blog Section: Add a blog section where customers can read about different dishes and cuisines from around the world.
 
-
-
-
+***
 
 ## Database Control Flow
 
@@ -334,6 +346,23 @@ The MVT (Model-View-Template) model is a way of organising code in Django web de
 
 Username: User1
 Password: 123456
+
+***
+
+## Testings 
+
+### CSS
+
+![CSS](codersbites/media/testings/admin.PNG)
+
+### Lighthouse 
+
+![Lighthouse1](codersbites/media/testings/lighthouse.PNG)
+![Lighthouse2](codersbites/media/testings/lighthouse2.PNG)
+![Lighthouse3](codersbites/media/testings/lighthouse3.PNG)
+
+### Bugs 
+
 
 
 ## Code
