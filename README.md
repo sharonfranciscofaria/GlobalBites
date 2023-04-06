@@ -169,10 +169,11 @@ The development of the Global Bites website was planned using agile methodology 
 
 # Design 
 
-## Wireframe : Figma 
+## Wireframe : Figma  / Final version
 
 
 ![Wireframe-Home](assets/images/wireframe.PNG)
+![final-home](codersbites/media/testings/main-page.png)
 
 1. Home Page:
 <br>
@@ -184,7 +185,8 @@ The development of the Global Bites website was planned using agile methodology 
   - Footer with links to social media pages and login in
 
 ![Wireframe-About](assets/images/wireframe.PNG)
-![Wireframe-About-Mobile](assets/images/wireframe.PNG)
+![final-about](codersbites/media/testings/about.png)
+
 
 2. About Page: 
 <br>
@@ -194,6 +196,7 @@ The development of the Global Bites website was planned using agile methodology 
   - Footer with links to social media pages and login in 
 
   ![Wireframe-Menu](assets/images/wireframe.PNG)
+  ![final-menu](codersbites/media/testings/menu.png)
 
 3. Menu Page:
 <br>
@@ -203,6 +206,7 @@ The development of the Global Bites website was planned using agile methodology 
   - Footer with links to social media pages and login in 
 
   ![Wireframe-Order](assets/images/wireframe.PNG)
+  ![final-order](codersbites/media/testings/order.png)
 
 4. Order Page:
 <br>
@@ -253,12 +257,26 @@ I used a framework called Bootstrap 4 to create the website. Bootstrap comes wit
 To make the website look good without starting from scratch, I used pre-made free components from Bootstrap, MDB, and Bootstrap Brain. Then, I customised these components to fit the branding of the business using CSS.
 Using pre-made components helped me save time and made the website look consistent and professional throughout. 
 
+### Mobile
+![Responsive-ipad](codersbites/media/testings/mobile.PNG)
+
+### Ipad/Tablet
+![Responsive-mobile](codersbites/media/testings/ipad.PNG)
+
+
 
 ## Database Control Flow
 
 The MVT (Model-View-Template) model is a way of organising code in Django web development. When a user sends a request for a resource, Django searches for that resource and if it finds it, it calls the appropriate view. The view interacts with the model to get the necessary data from the database, and then sends that data to the template, which is responsible for rendering the data in a user-friendly way that can be displayed on the website. Finally, the template is sent back to the user's browser, allowing them to see the requested resource.
 
 ![database](codersbites/media/testings/database.webp)
+
+### Django Admin
+
+![Django-admin](codersbites/media/testings/admin.PNG)
+
+Username: User1
+Password: 123456
 
 
 ## Code
