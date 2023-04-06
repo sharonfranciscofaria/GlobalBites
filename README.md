@@ -307,7 +307,7 @@ Admin dashboard
 7. Top-rated Dishes: Display the best-rated dishes on the website to help customers decide what to order.
 8. Blog Section: Add a blog section where customers can read about different dishes and cuisines from around the world.
 
-***
+-----
 
 ## Database Control Flow
 
@@ -324,13 +324,13 @@ The MVT (Model-View-Template) model is a way of organising code in Django web de
 Username: User1
 Password: 123456
 
-***
+-----
 
 ## Testings 
 
 ### CSS
 
-![CSS](codersbites/media/testings/admin.PNG)
+![CSS](codersbites/media/testings/CSS.PNG)
 
 ### Lighthouse 
 
@@ -361,7 +361,8 @@ The tutorial covered different aspects of building the website, including settin
 
 Using the tutorial as a guide, I built my project by customising and modifying the code to fit the branding and specific needs of the food business. I used Gitpod as my development environment and stored the code on Github.
 
-***
+-----
+
 ## Technologies used
 
 
@@ -399,7 +400,7 @@ Using the tutorial as a guide, I built my project by customising and modifying t
     - Form builder was used to build the form needed alongside with the bootstrap used
 
 
-***
+-----
 
 
 # Credits
@@ -410,11 +411,11 @@ Using the tutorial as a guide, I built my project by customising and modifying t
 - Django Documentation 
 - FreeCodeCamp
 
-***
+-----
 
 
 # Acknowledgements
-- My tutor at Westminster Adult Education Service, Richey Malhotra. A big thanks.
+- My tutor at Westminster Adult Education Service, Richey Malhotra. A big thanks. You are the best!
 - My classmates and team at Westminster Adult Education Service who have been kind to help one another when in need, share ideas and jokes around when working together!
 - My partner Juan Carlos Diaz Lara, whom I am thankful for introducing me into this coding world and taking the journey with me. 
 
