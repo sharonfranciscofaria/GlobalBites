@@ -3,8 +3,6 @@
 
 I'm excited to share with you to Global Bites, a fictional business website developed using Django Framework as part of Portfolio Project 3. 
 
-![mockup](assets/mockup.jpg)
-
 ## Inspiration & Storytelling 
 
 As someone who loves exploring different foods, I wanted to create a business idea that would allow others to experience the same joy and excitement that comes with trying new cuisines.
@@ -169,11 +167,8 @@ The development of the Global Bites website was planned using agile methodology 
 
 # Design 
 
-## Wireframe : Figma  / Final version
+## Wireframe : Figma  / Final Version
 
-
-![Wireframe-Home](assets/images/wireframe.PNG)
-![final-home](codersbites/media/testings/main-page.png)
 
 1. Home Page:
 <br>
@@ -184,9 +179,8 @@ The development of the Global Bites website was planned using agile methodology 
   - Testimonials section with quotes from satisfied customers
   - Footer with links to social media pages and login in
 
-![Wireframe-About](assets/images/wireframe.PNG)
-![final-about](codersbites/media/testings/about.png)
-
+![Wireframe-Home](codersbites/media/testings/wireframe-home.jpg)
+![final-home](codersbites/media/testings/main-page.png)
 
 2. About Page: 
 <br>
@@ -195,8 +189,9 @@ The development of the Global Bites website was planned using agile methodology 
   - An image of the team behind the scene who are enjoying Global Bites
   - Footer with links to social media pages and login in 
 
-  ![Wireframe-Menu](assets/images/wireframe.PNG)
-  ![final-menu](codersbites/media/testings/menu.png)
+![Wireframe-about](codersbites/media/testings/wireframe-about.jpg)
+![final-about](codersbites/media/testings/about.png)
+
 
 3. Menu Page:
 <br>
@@ -205,8 +200,8 @@ The development of the Global Bites website was planned using agile methodology 
   - Section showcasing menu with thumbnail images and brief descriptions
   - Footer with links to social media pages and login in 
 
-  ![Wireframe-Order](assets/images/wireframe.PNG)
-  ![final-order](codersbites/media/testings/order.png)
+![Wireframe-Menu](codersbites/media/testings/wireframe-menu.jpg)
+![final-menu](codersbites/media/testings/menu.png)
 
 4. Order Page:
 <br>
@@ -216,6 +211,9 @@ The development of the Global Bites website was planned using agile methodology 
   - Upon completion of the order, the user is taken to a confirmation page with details about the order and estimated delivery time
   - Dashboard page where admin/users can view their order history, update account settings, and track current orders
   - Login and Sign up pages for new users or returning customers who need to create an account
+
+![Wireframe-Order](codersbites/media/testings/wireframe-order.jpg)
+![final-order](codersbites/media/testings/order.png)
 
 
 ## Brand & Logo: Canva
@@ -248,6 +246,8 @@ To maintain consistency and professionalism, I also used 'Josefin Sans' for subh
 
 ----
 
+[Back to top](#content)
+
 ## Desktop, Tablet & Mobile Responsiveness 
 
 ![Responsive](codersbites/media/testings/responsive.png)
@@ -266,6 +266,8 @@ Using pre-made components helped me save time and made the website look consiste
 
 
 ## Database Control Flow
+
+![database-erd](codersbites/media/testings/ERD.png)
 
 The MVT (Model-View-Template) model is a way of organising code in Django web development. When a user sends a request for a resource, Django searches for that resource and if it finds it, it calls the appropriate view. The view interacts with the model to get the necessary data from the database, and then sends that data to the template, which is responsible for rendering the data in a user-friendly way that can be displayed on the website. Finally, the template is sent back to the user's browser, allowing them to see the requested resource.
 
@@ -346,7 +348,7 @@ Using the tutorial as a guide, I built my project by customising and modifying t
 - My classmates and team at Westminster Adult Education Service who have been kind to help one another when in need, share ideas and jokes around when working together!
 - My partner Juan Carlos Diaz Lara, whom I am thankful for introducing me into this coding world and taking the journey with me. 
 
-
+[Back to top](#content)
 
 
 
