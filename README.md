@@ -94,5 +94,7 @@ The development of the Global Bites website was planned using agile methodology 
 * In Progress- (then during development story they were moved into the 'In Progress' column)
 * Done- (and then finally they get moved into 'Done' once the development completes)
 
-Please find my Kanban Board with my user stories [here](https://github.com/users/jyotiyadav2508/projects/3/views/1).
+Please find my Kanban Board with my user stories [here](https://github.com/users/jyotiyadav2508/projects/3/views/1).status 
+
+## Epic Stories
 
