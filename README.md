@@ -1,4 +1,6 @@
-# Global Bites - Introduction
+
+![Logo](codersbites/media/testings/brand.png)
+
 I'm excited to share with you to Global Bites, a fictional business website developed using Django Framework as part of Portfolio Project 3. 
 
 ![mockup](assets/mockup.jpg)
@@ -214,7 +216,7 @@ The development of the Global Bites website was planned using agile methodology 
 
 ## Brand & Logo: Canva
 
-![Logo](assets/images/wireframe.PNG)
+![Logo](codersbites/media/testings/brand.png)
 
 ## Colour Palette: Canva
 
