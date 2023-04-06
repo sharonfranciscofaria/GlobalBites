@@ -254,30 +254,45 @@ To make the website look good without starting from scratch, I used pre-made fre
 Using pre-made components helped me save time and made the website look consistent and professional throughout. 
 
 
+## Database Control Flow
+
+The MVT (Model-View-Template) model is a way of organising code in Django web development. When a user sends a request for a resource, Django searches for that resource and if it finds it, it calls the appropriate view. The view interacts with the model to get the necessary data from the database, and then sends that data to the template, which is responsible for rendering the data in a user-friendly way that can be displayed on the website. Finally, the template is sent back to the user's browser, allowing them to see the requested resource.
+
+![database](codersbites/media/testings/database.webp)
 
 
+## Code
+
+I built the website using a combination of different programming languages, tools and resources such as HTML, CSS, Python, Django, and Bootstrap. I started by following a youtube video tutorial by Legion Script that provided a step-by-step guide on building a food delivery web application using Django and Python 3.
 
 
+The tutorial covered different aspects of building the website, including setting up basic pages like the index and about pages, creating an ordering system, implementing PayPal API with AJAX, creating staff login and restaurant dashboard, adding order details, creating a menu page, and adding a search bar.
+
+
+Using the tutorial as a guide, I built my project by customising and modifying the code to fit the branding and specific needs of the food business. I used Gitpod as my development environment and stored the code on Github.
 
 ***
 ## Technologies used
+
 
 - HTML
     - HTML is used to structure and use Bootstrap components by adding specific classes.
 - CSS
     - CSS is used to style and personalise Bootstrap components used for the website
-- Python / Django 
-    - Django was used Python to build the backend 
+- Python
+    - To provide the functionality to the site
+- Django
+    - Django was used o build the backend, it also enables rapid and secure development.
 - [Bootstrap v4](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
     - A set of pre-designed HTML, CSS, and JavaScript components was used to create responsive, mobile-first websites.
 - Google Fonts
     - Google Fonts us used to embed for the website
 - [Figma](https://www.figma.com)
-    - The wireframe was pre-planned and designed via Figma. 
+    - The wireframe was pre-planned and designed via Figma.
 - [Canva](https://www.canva.com/)
-    - Canva was used for: 
+    - Canva was used for:
       - Granting copyright free images/graphics/videos
-      - Designing and testing visuals 
+      - Designing and testing visuals
       - Resizing and downloading in PNG to support transparent background
      
 - Bootstrap Brain, MDB Bootstrap, Bootstrap Form Builder
@@ -286,22 +301,27 @@ Using pre-made components helped me save time and made the website look consiste
     - QuillBot was used to scan writings and alert any errors in grammar, spelling, punctuation as well as rephrase any research used for the website.
 - [User Persona](https://userpersona.dev/)
     - The website helped to generate fictional characters to represent the website
-- GitHub 
+- GitHub
     - Stores, manages, and track changes to the project code
 - Chrome DevTools
     - Chrome DevTools helped to debug, inspect, test the website's responsive design and check performance analysis tools
 - [Form Builder](https://bootstrapformbuilder.com/)
-    - Form builder was used to build the form needed alongside with the bootstrap used 
+    - Form builder was used to build the form needed alongside with the bootstrap used
+
 
 ***
 
+
 # Credits
 - Code institute Course Materials
-- W3 School 
-- YouTube: Legion Script 
-- YouTube: Mosh 
-- Django Documents 
-*** 
+- W3 School
+- YouTube: Legion Script
+- YouTube: Mosh
+- Django Documentation 
+- FreeCodeCamp
+
+***
+
 
 # Acknowledgements
 - My tutor at Westminster Adult Education Service, Richey Malhotra. A big thanks.
