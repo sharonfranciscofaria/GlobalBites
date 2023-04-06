@@ -19,55 +19,32 @@ You can view the live site here:- https://incredible-india.herokuapp.com/
 ----
 
 ## [Content](#content)
-- [Incredible India - Introduction](#incredible-india---introduction)
+- [Inspiration & Storytelling](#ispiration-storytelling)
   - [User Experience - UX](#user-experience---ux)
-    - [Aims](#aims)
+    - [Aim](#aims)
     - [Agile Methodology](#agile-methodology)
-      - [Epics and User Stories](#epics-and-user-stories)
-      - [Tasks](#tasks)
+    - [Target](#target)
+     - [User Personas](#personas)
+     - [User goals](#goals)
+     - [First Time Visitor](#first-time-visitor)
+     - [Returning Visitor](#returning-visitor)
+     - [Frequent Visitor](#frequent-visitor)
   - [Design](#design)
-    - [Colours](#colours)
-    - [Typography](#typography)
-    - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
-  - [Database Diagram](#database-diagram)
+    - [Wireframes: Figma / Final version](#wireframes)
+    - [Brand & Logo: Canva ](#brand)
+    - [Colour Palette: Canva ](#colour)
+    - [Typography: Google font / Bootstrap ](#typography)
+  - [Desktop, Tablet, Mobile Responsiveness](#responsiveness)
   - [Features](#features)
-    - [Home Page](#home-page)
-      - [Navbar](#navbar)
-      - [Hero Image](#hero-image)
-      - [Destination Section](#destination-section)
-      - [Footer](#footer)
-    - [User Page](#user-page)
-    - [About Page](#about-page)
-    - [Blog Page](#blog-page)
-      - [Blog Details](#blog-details)
-      - [Blog Comments](#blog-comments)
-    - [Register](#register)
-    - [Login](#login)
-    - [Logout](#logout)
-    - [Destinations](#destinations)
-    - [Search Button](#search-button)
-    - [Alert Messages](#alert-messages)      
-  - [Admin Panel/Superuser](#admin-panelsuperuser)
-  - [Technologies Used](#technologies-used)
-    - [Languages Used](#languages-used)
-    - [Django Packages](#django-packages)
-    - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+    - [Future Features](#future)   
+  - [Database Control Flow](#database)
+   - [Django Admin](#admin)
   - [Testing](#testing)
-      - [Validation](#validation)
-      - [Manual Testing](#manual-testing)
-  - [Bugs](#bugs)
-      - [Fixed Bugs](#fixed-bugs)
-      - [Unfix Bugs](#unfix-bugs)
-  - [Deployment](#deployment)
-      - [Creating the Django project](#creating-the-django-project)
-      - [Creating Heroku app](#creating-heroku-app)
-      - [Set up Environment Variables](#set-up-environment-variables)
-      - [Heroku deployment](#heroku-deployment)
-      - [Final Deployment](#final-deployment)
+      - [CSS Validation](#validation)
+      - [Lighthouse](#manual-testing)
+      - [Bugs](#bugs)
+- [Technologies Used](#testing)
   - [Credits](#credits)
-    - [Content](#content)
-    - [Information Sources / Resources](#information-sources--resources)
   - [Acknowledgement](#acknowledgement)
 
 -----
@@ -363,6 +340,15 @@ Password: 123456
 
 ### Bugs 
 
+![burger](codersbites/media/testings/burger-menu.PNG)
+1. The navbar in mobile mode (burger menu) wasn’t working, Fixed by adding the following to my code to work. data-mdb-toggle="collapse" data-mdb-target="#navbarNav". 
+
+
+2. Pictures were not loading onto pages. Fixed by adding static at the top {% load static %}
+
+
+3. Despite working directly on django , I couldn’t see my category on the website. 
+Fixed by going onto views and changing it to the correct name. 
 
 
 ## Code
