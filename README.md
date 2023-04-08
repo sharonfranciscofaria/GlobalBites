@@ -13,9 +13,6 @@ I also believe in sustainability and supporting local businesses, which is why I
 
 ![Hero Page](codersbites/media/testings/front-page.PNG) 
 
-
-You can view the live site here:- https://incredible-india.herokuapp.com/
-
 ----
 
 ## [Content](#content)
@@ -321,6 +318,14 @@ The MVT (Model-View-Template) model is a way of organising code in Django web de
 
 ![Django-admin](codersbites/media/testings/admin.PNG)
 
+Django admin is a feature in the Django web framework that allows Global Bites administrators to manage the data. This includes information about the menu, customers, orders, and more.
+
+It provides an easy-to-use interface that Global Bites administrators can use to add, update, or delete items from the menu, track customer orders, and manage database.
+
+For example, we want to add a new dish to the menu, we can use the Django admin to create a new menu item and provide all the necessary details such as the dish name, description, price, and image.
+
+Similarly, if a customer places an order through, the order details are automatically stored in the database. Global Bites can then use the Django admin to view and manage these orders, update their status, and track their progress.
+
 Username: User1
 Password: 123456
 
@@ -331,6 +336,10 @@ Password: 123456
 ### CSS
 
 ![CSS](codersbites/media/testings/admin.PNG)
+
+### Python CI Testing 
+
+![python](codersbites/media/testings/pythonvalidator.PNG)
 
 ### Lighthouse 
 
@@ -349,6 +358,12 @@ Password: 123456
 
 3. Despite working directly on django , I couldn’t see my category on the website. 
 Fixed by going onto views and changing it to the correct name. 
+
+4. My readme have been wiped out after pushing one commit and correct an error. I had to go back to my older commits and then copy my older raw readme onto here. 
+
+#### Unfix Bugs
+
+- Python codes as shown on validator. As I tried to fix them, the code messed with the whole project, so I wasn't able to proceed with it. 
 
 
 ## Code
@@ -406,7 +421,7 @@ Using the tutorial as a guide, I built my project by customising and modifying t
 - Code institute Course Materials
 - W3 School
 - YouTube: Legion Script
-- YouTube: Mosh
+- YouTube: Programming with Mosh
 - Django Documentation 
 - FreeCodeCamp
 
@@ -414,7 +429,7 @@ Using the tutorial as a guide, I built my project by customising and modifying t
 
 
 # Acknowledgements
-- My tutor at Westminster Adult Education Service, Richey Malhotra. A big thanks.
+- My tutor at Westminster Adult Education Service, Richey Malhotra. A big thanks for everything .
 - My classmates and team at Westminster Adult Education Service who have been kind to help one another when in need, share ideas and jokes around when working together!
 - My partner Juan Carlos Diaz Lara, whom I am thankful for introducing me into this coding world and taking the journey with me. 
 
