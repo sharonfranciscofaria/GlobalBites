@@ -27,7 +27,7 @@ I also believe in sustainability and supporting local businesses, which is why I
      - [Returning Visitor](#returning-visitor)
      - [Frequent Visitor](#frequent-visitor)
   - [Design](#design)
-    - [Wireframes: Figma / Final version](#wireframes)
+    - [Wireframes: Figma VS Final version](#wireframes)
     - [Brand & Logo: Canva ](#brand)
     - [Colour Palette: Canva ](#colour)
     - [Typography: Google font / Bootstrap ](#typography)
@@ -141,7 +141,7 @@ The development of the Global Bites website was planned using agile methodology 
 
 # Design 
 
-## Wireframe : Figma  / Final Version
+## Wireframe : Figma  VS Final Version
 
 
 1. Home Page:
@@ -335,7 +335,7 @@ Password: 123456
 
 ### CSS
 
-![CSS](codersbites/media/testings/admin.PNG)
+![CSS](codersbites/media/testings/CSS.PNG)
 
 ### Python CI Testing 
 
