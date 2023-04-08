@@ -38,6 +38,7 @@ I also believe in sustainability and supporting local businesses, which is why I
    - [Django Admin](#admin)
   - [Testing](#testing)
       - [CSS Validation](#validation)
+      - [Python CI Testing ](#tythontesting )
       - [Lighthouse](#manual-testing)
       - [Bugs](#bugs)
 - [Technologies Used](#testing)
