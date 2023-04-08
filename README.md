@@ -3,8 +3,6 @@
 
 I'm excited to share with you to Global Bites, a fictional business website developed using Django Framework as part of Portfolio Project 3. 
 
-![mockup](codersbites/media/testings/responsive.png)
-
 ## Inspiration & Storytelling 
 
 As someone who loves exploring different foods, I wanted to create a business idea that would allow others to experience the same joy and excitement that comes with trying new cuisines.
@@ -15,58 +13,38 @@ I also believe in sustainability and supporting local businesses, which is why I
 
 ![Hero Page](codersbites/media/testings/front-page.PNG) 
 
+
+You can view the live site here:- https://incredible-india.herokuapp.com/
+
 ----
 
 ## [Content](#content)
-- [Incredible India - Introduction](#incredible-india---introduction)
+- [Inspiration & Storytelling](#ispiration-storytelling)
   - [User Experience - UX](#user-experience---ux)
-    - [Aims](#aims)
+    - [Aim](#aims)
     - [Agile Methodology](#agile-methodology)
-      - [Epics and User Stories](#epics-and-user-stories)
-      - [Tasks](#tasks)
+    - [Target](#target)
+     - [User Personas](#personas)
+     - [User goals](#goals)
+     - [First Time Visitor](#first-time-visitor)
+     - [Returning Visitor](#returning-visitor)
+     - [Frequent Visitor](#frequent-visitor)
   - [Design](#design)
-    - [Colours](#colours)
-    - [Typography](#typography)
-    - [Imagery](#imagery)
-    - [Wireframes](#wireframes)
-  - [Database Diagram](#database-diagram)
+    - [Wireframes: Figma / Final version](#wireframes)
+    - [Brand & Logo: Canva ](#brand)
+    - [Colour Palette: Canva ](#colour)
+    - [Typography: Google font / Bootstrap ](#typography)
+  - [Desktop, Tablet, Mobile Responsiveness](#responsiveness)
   - [Features](#features)
-    - [Home Page](#home-page)
-      - [Navbar](#navbar)
-      - [Hero Image](#hero-image)
-      - [Destination Section](#destination-section)
-      - [Footer](#footer)
-    - [User Page](#user-page)
-    - [About Page](#about-page)
-    - [Blog Page](#blog-page)
-      - [Blog Details](#blog-details)
-      - [Blog Comments](#blog-comments)
-    - [Register](#register)
-    - [Login](#login)
-    - [Logout](#logout)
-    - [Destinations](#destinations)
-    - [Search Button](#search-button)
-    - [Alert Messages](#alert-messages)      
-  - [Admin Panel/Superuser](#admin-panelsuperuser)
-  - [Technologies Used](#technologies-used)
-    - [Languages Used](#languages-used)
-    - [Django Packages](#django-packages)
-    - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+    - [Future Features](#future)   
+  - [Database Control Flow](#database)
+   - [Django Admin](#admin)
   - [Testing](#testing)
-      - [Validation](#validation)
-      - [Manual Testing](#manual-testing)
-  - [Bugs](#bugs)
-      - [Fixed Bugs](#fixed-bugs)
-      - [Unfix Bugs](#unfix-bugs)
-  - [Deployment](#deployment)
-      - [Creating the Django project](#creating-the-django-project)
-      - [Creating Heroku app](#creating-heroku-app)
-      - [Set up Environment Variables](#set-up-environment-variables)
-      - [Heroku deployment](#heroku-deployment)
-      - [Final Deployment](#final-deployment)
+      - [CSS Validation](#validation)
+      - [Lighthouse](#manual-testing)
+      - [Bugs](#bugs)
+- [Technologies Used](#testing)
   - [Credits](#credits)
-    - [Content](#content)
-    - [Information Sources / Resources](#information-sources--resources)
   - [Acknowledgement](#acknowledgement)
 
 -----
@@ -166,10 +144,8 @@ The development of the Global Bites website was planned using agile methodology 
 
 # Design 
 
-## Wireframe : Figma 
+## Wireframe : Figma  / Final Version
 
-
-![Wireframe-Home](assets/images/wireframe.PNG)
 
 1. Home Page:
 <br>
@@ -180,8 +156,8 @@ The development of the Global Bites website was planned using agile methodology 
   - Testimonials section with quotes from satisfied customers
   - Footer with links to social media pages and login in
 
-![Wireframe-About](assets/images/wireframe.PNG)
-![Wireframe-About-Mobile](assets/images/wireframe.PNG)
+![Wireframe-Home](codersbites/media/testings/wireframe-home.jpg)
+![final-home](codersbites/media/testings/main-page.png)
 
 2. About Page: 
 <br>
@@ -190,7 +166,9 @@ The development of the Global Bites website was planned using agile methodology 
   - An image of the team behind the scene who are enjoying Global Bites
   - Footer with links to social media pages and login in 
 
-  ![Wireframe-Menu](assets/images/wireframe.PNG)
+![Wireframe-about](codersbites/media/testings/wireframe-about.jpg)
+![final-about](codersbites/media/testings/about.png)
+
 
 3. Menu Page:
 <br>
@@ -199,7 +177,8 @@ The development of the Global Bites website was planned using agile methodology 
   - Section showcasing menu with thumbnail images and brief descriptions
   - Footer with links to social media pages and login in 
 
-  ![Wireframe-Order](assets/images/wireframe.PNG)
+![Wireframe-Menu](codersbites/media/testings/wireframe-menu.jpg)
+![final-menu](codersbites/media/testings/menu.png)
 
 4. Order Page:
 <br>
@@ -210,42 +189,233 @@ The development of the Global Bites website was planned using agile methodology 
   - Dashboard page where admin/users can view their order history, update account settings, and track current orders
   - Login and Sign up pages for new users or returning customers who need to create an account
 
+![Wireframe-Order](codersbites/media/testings/wireframe-order.jpg)
+![final-order](codersbites/media/testings/order.png)
+
 
 ## Brand & Logo: Canva
 
 ![Logo](codersbites/media/testings/brand.png)
 
-Choosing a hand-written like font (Hitch Hike / Antio) logo on Canva can make the brand look more personal and unique. It can also show that the brand values creativity and authenticity. Canva was used  to create the logo, plus it allows easy customisation, so for example changing the colors or resising the logo is straightforward. Additionally, Canva provides high-quality images that can be used for various purposes.
+![Hikers](codersbites/media/testings/hike-font.PNG)
 
-As in for the slogan, I decided to use 'Small Plates Tour' because it accurately describes the brand's focus on serving small plates that showcase different cuisines from around the world, creates a sense of adventure and excitement, and is a catchy marketing tool."
+I chose a handwriting font (Hitch Hike / Antio) for my logo as it gave my brand a unique and personalised touch that stands out from other food businesses. The handwriting font also reflects my brand's personality, which focuses on diverse small plates from around the world, conveying the message that my food is authentic, delicious, and distinct. Using Canva to edit the logo was easy and cost-effective.. Overall, I'm happy with the final result and believe that it helps create a professional brand image.
+
+![antio](codersbites/media/testings/antio-font.PNG)
+
+I decided to go with "Small plates world tour" as I believe it’s a great slogan for a restaurant that serves small plates from around the world. It's catchy, memorable, and suggests that customers can try a variety of international dishes without leaving their seats. The use of the word "world" makes the slogan more inclusive and indicates that the restaurant offers diverse menu options. 
 
 ## Colour Palette: Canva
 
-The color palette of the website is primarily white and black to create a simple and easy-to-view design. Since the food images and other visuals used throughout the website are already colorful, a more minimalist approach was taken to avoid overwhelming the viewer. However, in the future, we can create special two-color themes for each cuisine that we serve to add some flavor and personality to the website.
+I decided to go for a black and white colour theme for my website because my food pictures are already colourful. It looks clean and sophisticated, making it easy for people to use.
+
+In the future, I might add themed colours that go with my menu for that month. This could make my website look even more exciting and add a sense of anticipation for my customers. Overall, using a black and white colour theme for my website was a good idea, and adding themed colours could make it even better.
+
 
 ## Typography: Google Font / Bootstrap 
+![Josefin](codersbites/media/testings/josefin.PNG)
+![Poppins](codersbites/media/testings/poppins.PNG)
 
-I used Google Fonts and Bootstrap for my website. Here are the chosen fonts for this project: 
+For Global Bites, I carefully selected fonts that would help communicate the right message to my targeted customers. I chose 'Josefin Sans' for headings because it has a clean, modern, and elegant appearance that aligns well with the restaurant's concept. 'Poppins' was my choice for paragraphs because it's easy to read and complements 'Josefin Sans' nicely.
 
-![VT323](assets/images/vt323.PNG)
+To maintain consistency and professionalism, I also used 'Josefin Sans' for subheadings. While I opted for these specific fonts in most cases, I also used some fonts provided by Bootstrap for certain elements of my website.
 
-1. [VT323, by Peter Hull](https://fonts.google.com/specimen/VT323) was used due its legibility, retro style, and ease of use.
-
-![Quciksand](assets/images/Quicksand.PNG)
-
-2. [Quicksand, Designed by Andrew Paglinawan](https://fonts.google.com/specimen/Quicksand) was used due it's modern and friendly appearance, making it suitable for a wide range of audience. It is also highly legible, making it easy for players to read instructions and text within the game.
 
 ----
 
+[Back to top](#content)
+
 ## Desktop, Tablet & Mobile Responsiveness 
-My website is designed to be responsive and accessible on any device, mainly thanks Bootstrap. I have tested them across all devices (Iphone, Ipads, Samsung tablets, Ipad mini, Desktop) using google dev tools.
 
-![Responsive](assets/images/responsive.svg)
+![Responsive](codersbites/media/testings/responsive.png)
+
+I used a framework called Bootstrap 4 to create the website. Bootstrap comes with pre-made buttons and forms that are easy to use and saves time. Bootstrap also makes the website fit on different screen sizes, making it easy to use on any device.
+
+To make the website look good without starting from scratch, I used pre-made free components from Bootstrap, MDB, and Bootstrap Brain. Then, I customised these components to fit the branding of the business using CSS.
+Using pre-made components helped me save time and made the website look consistent and professional throughout. 
+
+### Mobile
+![Responsive-ipad](codersbites/media/testings/mobile.PNG)
+
+### Ipad/Tablet
+![Responsive-mobile](codersbites/media/testings/ipad.PNG)
+
+***
+
+## Features
+
+Header with logo and navigation links (Home, About, Menu, Order) 
+![nav](codersbites/media/testings/navbar.PNG)
 
 
+Footer with links to social media pages and login in
+![footer](codersbites/media/testings/footer.PNG)
 
 
+Button to direct to order page
+![button1](codersbites/media/testings/button-order.PNG)
 
 
+Button to direct to menu page
+![button2](codersbites/media/testings/button-menu.PNG)
 
 
+Sign in page 
+![signin](codersbites/media/testings/signin.PNG)
+
+
+Sign up page 
+![signup](codersbites/media/testings/signup.PNG)
+
+
+Password Reset page
+![passwordreset](codersbites/media/testings/password-reset.PNG)
+
+
+Order details to be entered by customers, if they don’t, it will not proceed next. 
+![order-details](codersbites/media/testings/order-details.PNG)
+
+Alert if details not entered
+![alert](codersbites/media/testings/attention.PNG)
+
+Confirm order
+![confirm](codersbites/media/testings/confirm.PNG)
+
+
+Order ID
+![orderid](codersbites/media/testings/orderid.PNG)
+
+
+Order submitted
+![ordersubmitted](codersbites/media/testings/ordersubmitted.PNG)
+
+Payment
+![paymentdone](codersbites/media/testings/payment.PNG)
+
+
+Admin dashboard
+![dashboard](codersbites/media/testings/dashboard.PNG)
+
+## Future Features 
+
+1. Customer Reviews: Enable customers to provide feedback and rate dishes directly on the website.
+2. Contact Information: Display the company's contact information, including phone number, email, and physical address.
+3. Nutrition Information: Provide nutrition information and calorie counts for each dish.
+4. Allergy Awareness: Highlight ingredients that may cause allergic reactions and provide alternative options for customers with food allergies.
+5. Dietary Classification: Clearly label dishes as vegan, vegetarian, or non-vegetarian to help customers make informed choices.
+6. Custom Orders: Allow customers to customise their orders by requesting dishes that are not listed on the current menu.
+7. Top-rated Dishes: Display the best-rated dishes on the website to help customers decide what to order.
+8. Blog Section: Add a blog section where customers can read about different dishes and cuisines from around the world.
+
+***
+
+## Database Control Flow
+
+![database-erd](codersbites/media/testings/ERD.png)
+
+The MVT (Model-View-Template) model is a way of organising code in Django web development. When a user sends a request for a resource, Django searches for that resource and if it finds it, it calls the appropriate view. The view interacts with the model to get the necessary data from the database, and then sends that data to the template, which is responsible for rendering the data in a user-friendly way that can be displayed on the website. Finally, the template is sent back to the user's browser, allowing them to see the requested resource.
+
+![database](codersbites/media/testings/database.webp)
+
+### Django Admin
+
+![Django-admin](codersbites/media/testings/admin.PNG)
+
+Username: User1
+Password: 123456
+
+***
+
+## Testings 
+
+### CSS
+
+![CSS](codersbites/media/testings/admin.PNG)
+
+### Lighthouse 
+
+![Lighthouse1](codersbites/media/testings/lighthouse.PNG)
+![Lighthouse2](codersbites/media/testings/lighthouse2.PNG)
+![Lighthouse3](codersbites/media/testings/lighthouse3.PNG)
+
+### Bugs 
+
+![burger](codersbites/media/testings/burger-menu.PNG)
+1. The navbar in mobile mode (burger menu) wasn’t working, Fixed by adding the following to my code to work. data-mdb-toggle="collapse" data-mdb-target="#navbarNav". 
+
+
+2. Pictures were not loading onto pages. Fixed by adding static at the top {% load static %}
+
+
+3. Despite working directly on django , I couldn’t see my category on the website. 
+Fixed by going onto views and changing it to the correct name. 
+
+
+## Code
+
+I built the website using a combination of different programming languages, tools and resources such as HTML, CSS, Python, Django, and Bootstrap. I started by following a youtube video tutorial by Legion Script that provided a step-by-step guide on building a food delivery web application using Django and Python 3.
+
+
+The tutorial covered different aspects of building the website, including setting up basic pages like the index and about pages, creating an ordering system, implementing PayPal API with AJAX, creating staff login and restaurant dashboard, adding order details, creating a menu page, and adding a search bar.
+
+
+Using the tutorial as a guide, I built my project by customising and modifying the code to fit the branding and specific needs of the food business. I used Gitpod as my development environment and stored the code on Github.
+
+***
+## Technologies used
+
+
+- HTML
+    - HTML is used to structure and use Bootstrap components by adding specific classes.
+- CSS
+    - CSS is used to style and personalise Bootstrap components used for the website
+- Python
+    - To provide the functionality to the site
+- Django
+    - Django was used o build the backend, it also enables rapid and secure development.
+- [Bootstrap v4](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+    - A set of pre-designed HTML, CSS, and JavaScript components was used to create responsive, mobile-first websites.
+- Google Fonts
+    - Google Fonts us used to embed for the website
+- [Figma](https://www.figma.com)
+    - The wireframe was pre-planned and designed via Figma.
+- [Canva](https://www.canva.com/)
+    - Canva was used for:
+      - Granting copyright free images/graphics/videos
+      - Designing and testing visuals
+      - Resizing and downloading in PNG to support transparent background
+     
+- Bootstrap Brain, MDB Bootstrap, Bootstrap Form Builder
+    - These websites allows copyright free frontend libraries, some of the bootstrap components were used for the website
+- [QuillBot](https://quillbot.com/)
+    - QuillBot was used to scan writings and alert any errors in grammar, spelling, punctuation as well as rephrase any research used for the website.
+- [User Persona](https://userpersona.dev/)
+    - The website helped to generate fictional characters to represent the website
+- GitHub
+    - Stores, manages, and track changes to the project code
+- Chrome DevTools
+    - Chrome DevTools helped to debug, inspect, test the website's responsive design and check performance analysis tools
+- [Form Builder](https://bootstrapformbuilder.com/)
+    - Form builder was used to build the form needed alongside with the bootstrap used
+
+
+***
+
+
+# Credits
+- Code institute Course Materials
+- W3 School
+- YouTube: Legion Script
+- YouTube: Mosh
+- Django Documentation 
+- FreeCodeCamp
+
+***
+
+
+# Acknowledgements
+- My tutor at Westminster Adult Education Service, Richey Malhotra. A big thanks.
+- My classmates and team at Westminster Adult Education Service who have been kind to help one another when in need, share ideas and jokes around when working together!
+- My partner Juan Carlos Diaz Lara, whom I am thankful for introducing me into this coding world and taking the journey with me. 
+
+[Back to top](#content)
