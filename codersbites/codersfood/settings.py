@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-#4)+0crrh8f*if)_vaq$mifug*8v8ui(j)0ty899ljzaw&$je7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-sharonfranc-globalbites-y0zzg6ljov1.ws-eu106.gitpod.io']
 
 
 # Application definition
@@ -70,6 +70,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'codersfood.urls'
@@ -162,3 +163,5 @@ LOGIN_URL = '/accounts/login/'
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
+
+CSRF_TRUSTED_ORIGINS=['http://8000-sharonfranc-globalbites-y0zzg6ljov1.ws-eu106.gitpod.io']
